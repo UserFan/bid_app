@@ -33,8 +33,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'sass-rails', '~> 5.0'
-gem  'jquery-rails'
+gem 'jquery-rails'
+gem 'simple_form'
+gem "slim-rails"
+#gem 'autoprefixer-rails'
 gem 'devise'
 
 group :development, :test do
